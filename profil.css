@@ -1,0 +1,90 @@
+P {font-family: Times New Roman, sans-serif;
+    font-style: italic;
+}
+span {text-transform: uppercase;
+    font-weight: bolder;
+    color: BLACK;
+    }
+    A {font-size: 130%;}
+   H1 {color: BLACK;
+    }
+    img{background-image: purple;
+        }
+    P {text-decoration: underline;} 
+    UL {text-decoration:overline;} 
+    span {text-align: right}
+    .mm {border-color: pink;
+        border-style: groove;}
+    .t {cursor: default;}
+
+.nn{min-height: 25px;
+color:#00008B;
+filter: shadow(200%);
+}
+img {margin-right:2cm;
+    filter:chroma(2px)
+}
+.c {font-style: italic;
+    cursor: not-allowed;}
+    .w{filter:chroma(2px)
+        filter: brightness(200%)}
+        .style{
+            filter: grayscale(100%);
+            }
+            .q{
+                animation-duration: 3s;
+                animation-name: slidein;
+              }
+              
+              @keyframes slidein {
+                from {
+                  margin-left: 100%;
+                  width: 200%;
+                }
+              
+                to {
+                  margin-left: 0%;
+                  width: 100%;
+                }
+              }
+              .a{
+                color: #00008B;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+              .e{
+                color: #00008B; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+              .r{
+                color: #00008B; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+              .y{
+                color: #00008B; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+              b{
+                color: black;
+              }
+              .ww{
+                color: #00008B;
+              }
+              .qq{
+                color: #00008B;
+              }
+              .gg{
+                color: #00008B;
+              }
+              .menu-item {
+                border: 2px solid red; /*Красная граница пунктов*/
+                display: inline-block; /*Выстраиваем пункты в линию*/
+                position: relative;
+                cursor: pointer; /*Указатель курсора мыши*/
+            }
+            .menu-item .submenu {
+              height: 50px; /*высота открывающегося блока - не обязательный пункт*/
+              width: 150px;/*ширина блока*/
+              background: greenyellow; /*фон*/
+              display: none; /*скрываем все пункты меню*/
+              position: absolute;
+              cursor: pointer;
+          }
+            
+ 
